@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6813EBDE-D2A0-4727-BCA1-211D554C9288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsToVideoStramTest", "src\PsToVideoStramTest\PsToVideoStramTest.csproj", "{D2566FBB-9491-4A28-A5FE-FFFF10F46465}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsToVideStream", "src\PsToVideStream\PsToVideStream.csproj", "{216B1E69-025D-43FD-B095-AB496A5A8784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2566FBB-9491-4A28-A5FE-FFFF10F46465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2566FBB-9491-4A28-A5FE-FFFF10F46465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2566FBB-9491-4A28-A5FE-FFFF10F46465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2566FBB-9491-4A28-A5FE-FFFF10F46465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216B1E69-025D-43FD-B095-AB496A5A8784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216B1E69-025D-43FD-B095-AB496A5A8784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216B1E69-025D-43FD-B095-AB496A5A8784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216B1E69-025D-43FD-B095-AB496A5A8784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2566FBB-9491-4A28-A5FE-FFFF10F46465} = {6813EBDE-D2A0-4727-BCA1-211D554C9288}
+		{216B1E69-025D-43FD-B095-AB496A5A8784} = {6813EBDE-D2A0-4727-BCA1-211D554C9288}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9A899CB-1291-4B30-A003-5392788B4F65}
+	EndGlobalSection
+EndGlobal

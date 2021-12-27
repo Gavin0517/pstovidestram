@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PsToVideStream\PsToVideStream.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="set OutputCopyPath=$(ProjectDir)$(OutDir)testdata;&#xD;&#xA;if exist %25OutputCopyPath%25 (&#xD;&#xA; echo testdata folder is exist, ignore.&#xD;&#xA;) else (&#xD;&#xA;     start  xcopy /S /I  /Q /F  /E  /Y /R  &quot;$(SolutionDir)testdata&quot; &quot;$(ProjectDir)$(OutDir)testdata&quot; &#xD;&#xA;)" />
+  </Target>
+
+  
+
+</Project>
