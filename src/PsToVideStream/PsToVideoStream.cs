@@ -1,4 +1,7 @@
 ﻿namespace PsToVideStream;
+/// <summary>
+///  https://blog.csdn.net/jisuanji_wjfioj/article/details/40430455
+/// </summary>
 public class PsToVideoStream
 {
     private List<byte> psBuffer;
